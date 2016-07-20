@@ -16,7 +16,7 @@ func main() {
         api.GET("/straat/:straatnaam", GetStreetSuggestions)
         api.GET("/straat/:straatnaam/nummer/:huisnummer", GetAddressSpecifics)
 
-        api.GET("/huisnummers/:straatnaam", GetHouseNumbers)
+        api.GET("/straat/:straatnaam/nummers", GetHouseNumbers)
 
     }
 
